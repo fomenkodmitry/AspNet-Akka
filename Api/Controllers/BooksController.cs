@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Actor;
 using Domain;
 using Domain.Book.Dto;
 using Domain.Book.Messages;

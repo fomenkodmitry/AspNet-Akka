@@ -1,6 +1,6 @@
 ﻿using Akka.Actor;
 
-namespace Domain
+namespace Actor
 {
     public delegate IActorRef BooksManagerActorProvider();
 }
