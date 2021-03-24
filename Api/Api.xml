@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.ServiceScopeExtension.Extensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Api.ServiceScopeExtension.Extensions.AddServiceScopeFactory(Akka.Actor.ActorSystem,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)">
+            <summary>
+            
+            </summary>
+            <param name="system"></param>
+            <param name="serviceScopeFactory"></param>
+        </member>
+        <member name="M:Api.ServiceScopeExtension.Extensions.CreateScope(Akka.Actor.IActorContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Api.ServiceScopeExtension.ServiceScopeExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Api.ServiceScopeExtension.ServiceScopeExtension.Initialize(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)">
+            <summary>
+            
+            </summary>
+            <param name="serviceScopeFactory"></param>
+        </member>
+        <member name="M:Api.ServiceScopeExtension.ServiceScopeExtension.CreateScope">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Api.ServiceScopeExtension.ServiceScopeExtensionIdProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Api.ServiceScopeExtension.ServiceScopeExtensionIdProvider.CreateExtension(Akka.Actor.ExtendedActorSystem)">
+            <summary>
+            
+            </summary>
+            <param name="system"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Api.ServiceScopeExtension.ServiceScopeExtensionIdProvider.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Controllers.BooksController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Controllers.BooksController.Get(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controllers.BooksController.Path">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Controllers.BooksController.Post(Domain.Book.Messages.CreateBook)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
