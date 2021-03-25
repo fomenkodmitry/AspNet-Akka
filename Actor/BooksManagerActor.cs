@@ -16,6 +16,9 @@ namespace Actor
         {
             Receive<CreateBook>(command =>
             {
+                // send messages
+                // Context.ActorSelection("../brother").Tell(msg);
+
                 var newBook = new Book
                 {
                     Id = Guid.NewGuid(),

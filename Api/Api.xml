@@ -4,6 +4,17 @@
         <name>Api</name>
     </assembly>
     <members>
+        <member name="T:Api.ConfigurationLoader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Api.ConfigurationLoader.Load">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:Api.ServiceScopeExtension.Extensions">
             <summary>
             

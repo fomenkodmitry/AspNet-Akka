@@ -79,7 +79,7 @@ namespace Api
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "Admin Portal API", Version = "v1",
+                        Title = "Portal API", Version = "v1",
                         Description = Configuration["AppSettings:Environment"]
                     });
 
